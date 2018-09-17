@@ -1,0 +1,133 @@
+// @import '../node_modules/bulma/sass/utilities/initial-variables.sass';
+// @import '../node_modules/bulma/sass/utilities/derived-variables.sass';
+// @import '../node_modules/bulma/sass/utilities/mixins.sass';
+
+// @import '../node_modules/bulma/sass/utilities/functions';
+@import '../node_modules/bulma/sass/utilities/_all';
+
+$navbar-item-hover-background-color: #fff;
+$navbar-item-hover-color: #cc0000;
+
+.has-bg-img {
+  background: url('/static/backgroundsmaller.jpg') center center;
+  background-size: cover;
+}
+
+.lovequote {
+  font-family: 'Amatic SC', cursive;
+}
+
+.reviewerquote {
+  @include until($desktop) {
+    font-size: 0.9em;
+  }
+  @include until($tablet) {
+    font-size: 0.8em;
+  }
+}
+
+.quotetext {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+
+  @include until($desktop) {
+    margin-bottom: 4%;
+    font-size: 1.5em;
+  }
+
+  @include until($tablet) {
+    font-size: 1.5em;
+    margin-bottom: 10%;
+  }
+}
+
+.customquotes {
+  font-size: 4em;
+  font-family: 'Noto Serif JP', sans-serif;
+
+  @include until($tablet) {
+    line-height: 0.2;
+  }
+}
+
+.reviewlinktext {
+  margin-bottom: 2%;
+}
+.custombreak {
+  font-size: 6em;
+  margin-left: 48%;
+  margin-right: 48%;
+  margin-top: 5%;
+  border-color: #000;
+  background-color: #000;
+
+  @include until($desktop) {
+  }
+
+  @include until($tablet) {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 10%;
+  }
+}
+
+.reviewername {
+  color: #cc0000;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  @include until($tablet) {
+    margin-bottom: 8%;
+  }
+}
+
+.navbar-item {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.herotextcontainer {
+  margin-top: 2%;
+  margin-bottom: 12%;
+
+  @include until($desktop) {
+  }
+
+  @include until($tablet) {
+    margin-bottom: 30%;
+  }
+}
+
+.hairpic1 {
+  @include until($desktop) {
+  }
+
+  @include until($tablet) {
+    max-width: 25%;
+    max-height: 25%;
+  }
+}
+
+.lovecolortext {
+  color: #fff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+
+  @include until($desktop) {
+    font-size: 3em;
+    margin-top: 5%;
+  }
+
+  @include until($tablet) {
+    font-size: 2.5em;
+    margin-top: 3%;
+  }
+
+  @include tablet {
+  }
+  @include widescreen-only {
+  }
+}
+
+@import '../node_modules/bulma/bulma.sass';
