@@ -1,14 +1,13 @@
 import React from 'react';
 
-import ServicesMessage from './ServicesMessage';
+import ContactInformation from './ContactInformation';
 
 export default () => (
-  <section className="hero is-large bg-img">
+  <section className="hero is-medium bg-img">
     <div className="hero-head herotextcontainer">
       <div className="container has-text-centered">
-        <ServicesMessage />
+        <ContactInformation />
       </div>
     </div>
-    <div className="hero-body" />
   </section>
 );
