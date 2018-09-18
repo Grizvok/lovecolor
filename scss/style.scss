@@ -26,6 +26,25 @@ $navbar-item-hover-color: #cc0000;
   }
 }
 
+.service {
+  color: #cc0000;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+.bg-img {
+  background: url('/static/woodpanel.jpg') center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.servicetitle {
+  color: #cc0000;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
 .quotetext {
   font-family: 'Pacifico', cursive;
   font-size: 2.5em;
