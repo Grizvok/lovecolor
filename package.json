@@ -13,7 +13,9 @@
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",

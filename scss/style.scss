@@ -13,6 +13,18 @@ $navbar-item-hover-color: #cc0000;
   background-size: cover;
 }
 
+.brick-bg-image {
+  background: url('/static/whitebrick.jpg') center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  @include until($desktop) {
+    background: none;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+}
+
 .lovequote {
   font-family: 'Amatic SC', cursive;
 }
@@ -36,17 +48,31 @@ $navbar-item-hover-color: #cc0000;
   color: #fff;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .service {
+  font-size: 1.5em;
+}
+
+.servicecategory {
   color: #cc0000;
   font-family: 'Amatic SC', cursive;
-  font-size: 2em;
+  font-size: 2.3em;
+  font-weight: bold;
 }
 
 .bg-img {
   background: url('/static/redwoodpanel.jpg') center center;
   background-size: cover;
+}
+
+.servicebox {
+  margin-top: 2%;
+}
+
+.servicedescription {
+  font-weight: 100;
 }
 
 .studioaddress {
@@ -60,7 +86,7 @@ $navbar-item-hover-color: #cc0000;
   color: #cc0000;
   font-weight: bold;
   font-family: 'Amatic SC', cursive;
-  font-size: 2em;
+  font-size: 3.5em;
 }
 
 .studiomap {
@@ -97,10 +123,32 @@ $navbar-item-hover-color: #cc0000;
 
 .contactemail {
   color: #fff;
+  margin-top: 1%;
+}
+
+.contactmessenger {
+  color: #fff;
+  margin-bottom: 2%;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.contactmessengerlink:hover
+{
+    text-decoration: none;
+    color: #000;
+}
+
+.contactmessengerlink {
+  text-decoration: none;
+  color: #FFF;
 }
 
 .contactphone {
-  color: #fff;
+  color: #fff; 
 }
 
 .contacthours {
@@ -109,6 +157,11 @@ $navbar-item-hover-color: #cc0000;
 
 .address {
   color: #fff;
+  margin-bottom: 2%;
+}
+
+.sundayhours {
+  margin-bottom: 2%;
 }
 
 .studiohours {
@@ -124,12 +177,12 @@ $navbar-item-hover-color: #cc0000;
   background-color: grey;
 }
 
-.custombreak2 {
+.custombreak3 {
   font-size: 6em;
   margin-left: 48%;
   margin-right: 48%;
   border-color: #fff;
-  background-color: #fff;
+  background-color: #FFF;
   margin-top: 0;
   margin-bottom: 0;
 
@@ -139,6 +192,24 @@ $navbar-item-hover-color: #cc0000;
   @include until($tablet) {
     margin-left: 45%;
     margin-right: 45%;
+  }
+}
+
+.custombreak2 {
+  font-size: 6em;
+  margin-left: 46%;
+  margin-right: 46%;
+  border-color: #fff;
+  background-color: #FFF;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  @include until($desktop) {
+  }
+
+  @include until($tablet) {
+    margin-left: 35%;
+    margin-right: 35%;
   }
 }
 
@@ -153,6 +224,13 @@ $navbar-item-hover-color: #cc0000;
 
 .reviewlinktext {
   margin-bottom: 2%;
+
+  @include until($desktop) {
+
+  }
+  @include until($tablet) {
+    margin-bottom: 7%;
+  }
 }
 .custombreak {
   font-size: 6em;

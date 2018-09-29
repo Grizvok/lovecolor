@@ -1,5 +1,12 @@
 import React from 'react';
 
+import Layout from '../components/MyLayout';
+import PortfolioBoard from '../components/PortfolioBoard';
+
 export default () => (
-  <div>Hello portfolio page!</div>
+  <Layout>
+    <PortfolioBoard>
+      
+    </PortfolioBoard>
+  </Layout>
 );

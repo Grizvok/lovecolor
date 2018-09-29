@@ -9,6 +9,15 @@ class Header extends React.Component {
     super(props);
 
     this.handleClick = this.handleClick.bind(this);
+    this.handleNavigation = this.handleNavigation.bind(this);
+  }
+
+  handleNavigation() {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('#' + burger.dataset.target);
+
+    burger.classList.remove('is-active');
+    nav.classList.remove('is-active');
   }
 
   handleClick() {
@@ -25,9 +34,7 @@ class Header extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link prefetch href="/">
-              <a className="navbar-item">
-               Love Color
-              </a>
+              <a className="navbar-item">Love Color</a>
             </Link>
             <span
               onClick={this.handleClick}
@@ -47,9 +54,10 @@ class Header extends React.Component {
               <Link prefetch href="/portfolio">
                 <a className="navbar-item">Portfolio</a>
               </Link>
-              <Link prefetch href="/contact">
-                <a className="navbar-item">Contact</a>
-              </Link>
+              {/* Fix usage of next/link to do client side routing to /#contact */}
+              <a href="/#contact" className="navbar-item">
+                Contact
+              </a>
             </div>
           </div>
         </div>

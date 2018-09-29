@@ -1,5 +1,12 @@
 import React from 'react';
 
+import Layout from '../components/MyLayout';
+import ServicesBoard from '../components/ServicesBoard';
+
 export default () => (
-  <div>Hello services page!</div>
+  <Layout>
+    <ServicesBoard>
+      
+    </ServicesBoard>
+  </Layout>
 );

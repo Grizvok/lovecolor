@@ -64,7 +64,7 @@ export default () => (
           <h1 className="reviewername has-text-centered">Erin</h1>
         </div>
       </div>
-      <p className="reviewlinktext has-text-centered">See more testimonials <Link href="https://www.facebook.com/pg/LoveColorSalon/reviews/"><a><u><b>here</b></u></a></Link></p>
+      <p id="contact" className="reviewlinktext has-text-centered">See more testimonials <Link href="https://www.facebook.com/pg/LoveColorSalon/reviews/"><a><u><b>here</b></u></a></Link></p>
     </div>
   </section>
 );
