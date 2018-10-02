@@ -25,6 +25,30 @@ $navbar-item-hover-color: #cc0000;
   }
 }
 
+.portfoliobreak {
+  font-size: 6em;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-color: #000;
+  background-color: #000;
+  margin-top: 0;
+  margin-bottom: 5%;
+
+  @include until($desktop) {
+  }
+
+  @include until($tablet) {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+}
+
+.gallerytext {
+  margin-top: 5%;
+  font-size: 4em;
+  font-family: 'Amatic SC', cursive;
+}
+
 .lovequote {
   font-family: 'Amatic SC', cursive;
 }

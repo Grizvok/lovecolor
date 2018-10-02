@@ -35,6 +35,6 @@ export default () => (
       <br />
       Greensburg, PA 15601
     </p>
-    {/* <MapComponent /> */}
+    <MapComponent />
   </div>
 );
