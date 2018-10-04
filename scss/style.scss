@@ -43,10 +43,9 @@ $navbar-item-hover-color: #cc0000;
   }
 }
 
-.gallerytext {
-  margin-top: 5%;
-  font-size: 4em;
+.abouthero {
   font-family: 'Amatic SC', cursive;
+  font-size: 4em;
 }
 
 .lovequote {
@@ -77,6 +76,7 @@ $navbar-item-hover-color: #cc0000;
 
 .service {
   font-size: 1.5em;
+  margin-bottom: .7%;
 }
 
 .servicecategory {
@@ -84,6 +84,7 @@ $navbar-item-hover-color: #cc0000;
   font-family: 'Amatic SC', cursive;
   font-size: 2.3em;
   font-weight: bold;
+  margin-bottom: 1%;
 }
 
 .bg-img {
@@ -97,6 +98,7 @@ $navbar-item-hover-color: #cc0000;
 
 .servicedescription {
   font-weight: 100;
+  margin-bottom: .5%;
 }
 
 .studioaddress {
@@ -106,11 +108,25 @@ $navbar-item-hover-color: #cc0000;
   font-size: 2em;
 }
 
+.bottomservice {
+  margin-top: 5%;
+}
+
 .servicetitle {
   color: #cc0000;
   font-weight: bold;
   font-family: 'Amatic SC', cursive;
   font-size: 3.5em;
+  margin-bottom: 1%;
+}
+
+.gallerycontainer {
+  margin-bottom: 5%;
+}
+
+.gallerytext {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
 }
 
 .studiomap {
@@ -123,6 +139,10 @@ $navbar-item-hover-color: #cc0000;
 .customfooter {
   margin-top: 2.5em;
   margin-bottom: 2.5em;
+}
+
+.galleryimage {
+  margin-bottom:6%;
 }
 
 .salonlogo {

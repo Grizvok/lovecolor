@@ -8,6 +8,11 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
 
+    this.state={
+      isOpen: false
+    };
+
+    //this.closeNavbar = this.closeNavbar.bind(this);
     this.handleClick = this.handleClick.bind(this);
     this.handleNavigation = this.handleNavigation.bind(this);
   }
@@ -47,7 +52,7 @@ class Header extends React.Component {
             </span>
           </div>
           <div id="navMenu" className="navbar-menu">
-            <div className="navbar-end">
+            <div onClick={this.handleNavigation} className="navbar-end">
               <Link prefetch href="/services">
                 <a className="navbar-item">Services</a>
               </Link>
@@ -55,12 +60,13 @@ class Header extends React.Component {
                 <a className="navbar-item">Portfolio</a>
               </Link>
               {/* Fix usage of next/link to do client side routing to /#contact */}
-              <a href="/#contact" className="navbar-item">
-                Contact
-              </a>
+              
               <Link prefetch href="/about">
                 <a className="navbar-item">About</a>
               </Link>
+              <a href="/#contact" className="navbar-item">
+                Contact
+              </a>
             </div>
           </div>
         </div>
