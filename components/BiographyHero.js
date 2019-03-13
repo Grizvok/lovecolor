@@ -3,11 +3,11 @@ import React from 'react';
 export default () => (
   <section className="hero">
     <div className="hero-body">
-      <div className="columns">
+      <div className="columns is-centered">
         <div className="column is-4">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-1by1">
                 <img
                   src="/static/hairpic1.jpg"
                   alt="Placeholder image"
@@ -17,7 +17,7 @@ export default () => (
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
-                  <figure class="image is-48x48">
+                  <figure class="image is-128x128">
                     <img
                       src="/static/amy1.jpg"
                       alt="Placeholder image"
@@ -48,44 +48,7 @@ export default () => (
         <div className="column is-4">
           <div class="card">
             <div class="card-image">
-              <figure class="image is-4by3">
-                <img
-                  src="/static/colorfulnails.jpg"
-                  alt="Placeholder image"
-                />
-              </figure>
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <figure class="image is-48x48">
-                    <img
-                      src="/static/marie.jpg"
-                      alt="Placeholder image"
-                    />
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <p class="title is-4">Marie Stauffer blone</p>
-                  <p class="subtitle is-6">Manicurist</p>
-                </div>
-              </div>
-
-              <div class="content">
-                Marie has over 25 years of salon experience, 9 years retail
-                management. Committed to superior customer service and products
-                for clients. Marie specializes in natural manicures, shellac
-                gel, and deep moisturizing pedicures. Marie’s loving passion for
-                animals led her to SOS Animal Rescue. She’s a proud foster Momma
-                and aides in finding furever homes for the fur babies!
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="column is-4">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
+              <figure class="image is-1by1">
                 <img
                   src="/static/hairpic2.jpg"
                   alt="Placeholder image"
@@ -95,7 +58,7 @@ export default () => (
             <div class="card-content">
               <div class="media">
                 <div class="media-left">
-                  <figure class="image is-48x48">
+                  <figure class="image is-128x128">
                     <img
                       src="/static/stevi.jpg"
                       alt="Placeholder image"
@@ -103,7 +66,7 @@ export default () => (
                   </figure>
                 </div>
                 <div class="media-content">
-                  <p class="title is-4">Stevi Richter brunette</p>
+                  <p class="title is-4">Stevi Richter</p>
                   <p class="subtitle is-6">Stylist</p>
                 </div>
               </div>

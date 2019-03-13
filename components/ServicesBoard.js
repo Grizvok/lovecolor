@@ -35,7 +35,7 @@ export default () => (
                   <p className="has-text-white servicedescription">The most beautiful locks of hair using the tape method. Whether you want to add volume and/or length, these are the extensions for you.</p>
                   <p className="has-text-grey service">Olaplex $25</p>
                   <p className="has-text-white servicedescription">Add this liquid gold to any service for the best feeling hair on Earth!</p>
-                  <p className="has-text-grey service">Framesi Keratin Smoothing $150+</p>
+                  <p className="has-text-grey service">Keune Keratin Smoothing $150+</p>
                   <p className="has-text-white servicedescription">A signature blend of premium keratin proteins, botanical extracts, and vitamins. It does not contain any harmful chemicals including formaldehyde.</p>
                   <p className="has-text-grey service">Design perms &nbsp;Partial/$50+ &nbsp;Full/$70+</p>
                   <p className="has-text-white servicedescription">I only use ISO perms:)</p>
@@ -49,7 +49,7 @@ export default () => (
                   <p className="has-text-grey service">Balayage $90+</p>
                   <p className="has-text-white servicedescription">Client consultation and wash and style included.</p>
                   <p className="has-text-grey service">All over Color $50</p>
-                  <p className="has-text-white servicedescription">Full consultation and Framesi Color application.</p>
+                  <p className="has-text-white servicedescription">Full consultation and Keune Color application.</p>
                 </div>
               </div>
             </div>
