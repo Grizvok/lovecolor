@@ -6,11 +6,13 @@ import SecondHomeHero from '../components/SecondHomeHero';
 import HeroQuote from '../components/HeroQuote';
 import Footer from '../components/Footer';
 
-export default () => (
+export default () => {
+  return (
   <Layout>
     <HomeBackground />
     <HeroQuote />
     <SecondHomeHero />
     <Footer />
   </Layout>
-);
+
+)};

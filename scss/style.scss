@@ -67,7 +67,7 @@ $navbar-item-hover-color: #cc0000;
 }
 
 .contacttitle {
-  margin-top: 9%;
+  margin-top: 3%;
   font-size: 4em;
   color: #fff;
   font-family: 'Amatic SC', cursive;
@@ -123,6 +123,12 @@ $navbar-item-hover-color: #cc0000;
 
 .gallerycontainer {
   margin-bottom: 5%;
+  background-color: #16a085;
+}
+
+.gallerycontainer2 {
+  margin-bottom: 5%;
+  background-color: #f1c40f;
 }
 
 .gallerytext {
@@ -311,9 +317,13 @@ a:hover, a:visited, a:link, a:active
   font-size: 2em;
 }
 
+.amy-column {
+  margin-right: 4%;
+}
+
 .herotextcontainer {
   margin-top: 2%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
 
   @include until($desktop) {
   }

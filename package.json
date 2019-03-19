@@ -6,12 +6,12 @@
   "dependencies": {
     "@zeit/next-css": "^0.2.0",
     "@zeit/next-sass": "^0.2.0",
-    "bulma": "^0.7.1",
-    "google-map-react": "^1.0.6",
+    "bulma": "^0.7.4",
+    "google-map-react": "^1.1.2",
     "next": "^6.1.2",
-    "node-sass": "^4.9.3",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {
     "extract-text-webpack-plugin": "^4.0.0-beta.0"

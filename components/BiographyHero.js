@@ -3,8 +3,8 @@ import React from 'react';
 export default () => (
   <section className="hero">
     <div className="hero-body">
-      <div className="columns is-centered">
-        <div className="column is-4">
+      <div className="columns is-0 is-centered">
+        <div className="column is-3 amy-column">
           <div class="card">
             <div class="card-image">
               <figure class="image is-1by1">
@@ -45,7 +45,7 @@ export default () => (
             </div>
           </div>
         </div>
-        <div className="column is-4">
+        <div className="column is-3">
           <div class="card">
             <div class="card-image">
               <figure class="image is-1by1">

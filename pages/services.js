@@ -5,8 +5,6 @@ import ServicesBoard from '../components/ServicesBoard';
 
 export default () => (
   <Layout>
-    <ServicesBoard>
-      
-    </ServicesBoard>
+    <ServicesBoard />
   </Layout>
 );

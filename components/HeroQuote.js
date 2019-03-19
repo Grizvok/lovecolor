@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Link from "next/link";
 
 export default () => (
@@ -14,13 +14,20 @@ export default () => (
             “
           </h1>
           <h2 className="reviewerquote has-text-centered">
-            I’ve been looking for a new salon<br />
-            for a long time. I finally made<br />
-            an appointment with Amy and today<br />
-            she turned my lifeless long hair<br />
-            into a short summer style!<br />
-            She listened to what I wanted<br />
-            and came through! Love it!<br />
+            I’ve been looking for a new salon
+            <br />
+            for a long time. I finally made
+            <br />
+            an appointment with Amy and today
+            <br />
+            she turned my lifeless long hair
+            <br />
+            into a short summer style!
+            <br />
+            She listened to what I wanted
+            <br />
+            and came through! Love it!
+            <br />
           </h2>
           <h1 className="reviewername has-text-centered">Heather</h1>
         </div>
@@ -29,7 +36,8 @@ export default () => (
             “
           </p>
           <h2 className="reviewerquote has-text-centered">
-            I had my hair cut and colored<br />
+            I had my hair cut and colored
+            <br />
             by Amy last week and once again <br />
             she did a phenomenal job! I told <br />
             her what I wanted to achieve and <br />
@@ -52,19 +60,25 @@ export default () => (
             “
           </p>
           <h2 className="reviewerquote has-text-centered">
-            Went for a pedicure today for
-            <br />
-            the first time at this shop
-            <br />
-            and Marie is wonderful.
-            <br />
-            She has a client for life!
-            <br />
+            I have been looking for a <br /> 
+            new hair stylist for years.<br /> 
+            Amy cut my hair for the first time <br /> 
+            on Saturday and I’ve officially <br />
+            found my girl!!!!
           </h2>
-          <h1 className="reviewername has-text-centered">Erin</h1>
+          <h1 className="reviewername has-text-centered">Krista</h1>
         </div>
       </div>
-      <p id="contact" className="reviewlinktext has-text-centered">See more testimonials <Link href="https://www.facebook.com/pg/LoveColorSalon/reviews/"><a><u><b>here</b></u></a></Link></p>
+      <p id="contact" className="reviewlinktext has-text-centered">
+        See more testimonials{" "}
+        <Link href="https://www.facebook.com/pg/LoveColorSalon/reviews/">
+          <a>
+            <u>
+              <b>here</b>
+            </u>
+          </a>
+        </Link>
+      </p>
     </div>
   </section>
 );
@@ -73,10 +87,8 @@ export default () => (
 //2 Heather
 //3 Erin
 
-
-
-
-{/* <h2 className="reviewerquote has-text-centered">
+{
+  /* <h2 className="reviewerquote has-text-centered">
 I’ve been looking for a new salon
 <br />
 for a long time. I finally made
@@ -91,4 +103,5 @@ She listened to what I wanted
 <br />
 and came through! Love it!
 <br />
-</h2> */}
+</h2> */
+}
